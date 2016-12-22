@@ -49,8 +49,8 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
-.bg-light-gray {
-  background-color: #eeeeee;
+.bg-light-silver {
+  background-color: #c0c0c0;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -92,8 +92,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ffd700;
+  border-color: #ffd700;
 }
 .btn-primary .badge {
   color: #fed136;
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #ffd700;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/GCVB_Liberty_Bridge.jpg');
+  background-image: url('../img/greenvillenight.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -235,7 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: yellow;
 }
 header .intro-text {
   padding-top: 100px;
