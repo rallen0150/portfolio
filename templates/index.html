@@ -89,6 +89,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About Me</h2>
+                    <img class="img-responsive img-centered" src="static/20161011_TIY-Students_17273.jpg" alt="" style="max-height:450px;border-radius:50%;">
                     <h3 class="section-subheading text-muted">
                       I am a graduate of the Back-End Engineering course from The Iron Yard in Greenville, South Carolina. I learned the skills needed to
                       prepare myself for a career in web development as well as the process that goes into this line of work. I am eager to take
@@ -130,7 +131,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/url-shortener.png" class="img-responsive" alt="">
+                        <img src="static/url.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>URL Shortener</h4>
@@ -144,7 +145,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/ironbank.png" class="img-responsive" alt="">
+                        <img src="static/bank.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Iron Bank</h4>
@@ -160,9 +161,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Languages</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Languages/Frameworks</h2>
+                    <h3 class="section-subheading text-muted">These languages and frameworks are what I have used and know how to use.</h3>
                 </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img src="static/img/pythonlogo.jpg" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>Python</h3>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="static/img/django-logo.png" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>Django</h3>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="static/img/HTML5_Logo_.png" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>HTML5 and CSS</h3>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="static/img/heroku-vector-logo.jpg" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>Heroku</h3>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="static/img/javascript.jpg" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>JavaScript</h3>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="static/img/bootstrap.png" class="img-responsive" alt="" style="max-height:250px;max-width:250px;">
+                <h3>Bootstrap</h3>
+              </div>
             </div>
         </div>
     </section>
@@ -174,7 +201,10 @@
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading">Resume</h2>
               </div>
-
+              <div class="col-lg-12 text-center">
+                <br>
+                <a href="static/robertallen-resume.pdf" target='_blank' data-toggle="modal"><button type="button" class="btn btn-xl">View Resume</button></a>
+              </div>
             </div>
         </div>
     </section>
@@ -234,7 +264,7 @@
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
-                        <li><a href="https://github.com/rallen0150?tab=repositories"><i class="fa fa-github"></i></a>
+                        <li><a href="https://github.com/rallen0150"><i class="fa fa-github"></i></a>
                         </li>
                         <li><a href="https://www.linkedin.com/in/robert-allen-03ba5b132"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -262,16 +292,20 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="static/img/portfolio/roundicons.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Chowster</h2>
+                                <p class="item-intro text-muted">Foodtruck Locator Application.</p>
+                                <img class="img-responsive img-centered" src="static/Chowster.png" alt="">
                                 <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                  Chowster is a foodtruck locator application that incorporates the Google Maps API. The app is based off of geolocations from Google Maps, so the truck driver won't have to give a latitude and longitude, but will give an address.
+                                  The app is split into 2 different interactions, the truck driver or the user. The truck driver sets their location, logo, and menu to show to the user. Once the location is set, the truck's logo will appear on the map.
+                                  The user will be able to look on the map, or the list of trucks, to find a truck around their location. The map centers around the location of the user so they can see which truck is in their area. The user will be able to
+                                  rate the different trucks and leave comments about the service. Also if a user gives their email address then they will recieve an email of the truck's new location if the driver chooses to give that location to the users who favorited their truck.
+                                </p>
+                                <p>
+                                    <strong>Want to view and test the site? </strong>You can now by visiting <a href="https://powerful-brook-42988.herokuapp.com/">Chowster.</a></p>
                                 <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Date: December 2016</li>
+                                    <br><br><a href="https://github.com/rallen0150/final_project" target='_blank' data-toggle="modal"><button type="button" class="btn btn-primary">View Code</button></a>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -296,11 +330,18 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="static/img/portfolio/startup-framework.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <h2>URL Shortener</h2>
+                                <p class="item-intro text-muted">A Bitly clone application.</p>
+                                <img class="img-responsive img-centered" src="static/url.png" alt="">
+                                <p>
+                                  The URL Shortener will take any url and create a shorter url to link to that page. The user who wants to shorten a url will be allowed to make the new
+                                  url public or private. The public urls can be seen by anyone, but private can only be seen by the user who first shortened the url.
+                                </p>
+                                <p>You can view the site <a href="http://rallen-url-short.herokuapp.com/">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: October 2016</li>
+                                    <br><br><a href="https://github.com/rallen0150/url_shortener" target='_blank' data-toggle="modal"><button type="button" class="btn btn-primary">View Code</button></a>
+                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -325,11 +366,19 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="static/img/portfolio/treehouse.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Iron Bank</h2>
+                                <p class="item-intro text-muted">Online Banking Application.</p>
+                                <img class="img-responsive img-centered" src="static/bank.png" alt="">
+                                <p>
+                                  The Iron Bank is an online banking application. The user will be able to see how much money they have in their account. The user can only see their account
+                                  and they will be able to do 3 different transactions: withdraw money, deposit money, or transfer money to another user. To transfer money, the user will need to
+                                  know another user's id number.
+                                </p>
+                                <p>You can view the site <a href="https://rallen-ironbank.herokuapp.com/">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: October 2016</li>
+                                    <br><br><a href="https://github.com/rallen0150/bank" target='_blank' data-toggle="modal"><button type="button" class="btn btn-primary">View Code</button></a>
+                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
