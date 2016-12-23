@@ -25,7 +25,7 @@ SECRET_KEY = 'r)#-gl$ot47%ehs5q=0*3f)r-)tqo7&&g)^8#xwz$z!rgqe#zh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysterious-bayou-40935.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
+import dj_database_url
 
 DATABASES = {
     'default': {
@@ -82,6 +83,9 @@ DATABASES = {
     }
 }
 
+database_config = dj_database_url.config()
+if database_config:
+    DATABASES['default'] = database_config
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
@@ -120,6 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 EMAIL_HOST = os.environ.get("EMAIL_HOST")
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
