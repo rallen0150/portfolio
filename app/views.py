@@ -25,5 +25,4 @@ class SendMailView(FormView):
 
     def form_valid(self, form):
         form.send_email()
-        time.sleep(5)
         return super().form_valid(form)
