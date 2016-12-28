@@ -25,7 +25,7 @@ SECRET_KEY = 'r)#-gl$ot47%ehs5q=0*3f)r-)tqo7&&g)^8#xwz$z!rgqe#zh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mysterious-bayou-40935.herokuapp.com', 'localhost', 'robertallen.pw']
+ALLOWED_HOSTS = ['mysterious-bayou-40935.herokuapp.com', 'localhost', 'www.robertallen.pw']
 
 
 # Application definition
