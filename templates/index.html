@@ -64,9 +64,11 @@
                     <li>
                         <a class="page-scroll" href="#resume">Resume</a>
                     </li>
+                    {% comment %}
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    {% endcomment %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -264,9 +266,12 @@
                         </div>
                     </form>
                     {% endcomment %}
-                    <div class="col-md-12 text-center">
-                      <a href="{% url 'contact_me' %}"><button type="button" class="btn btn-xl">Contact Me</button></a>
-                    </div>
+                    
+                    {% comment %}
+                        <div class="col-md-12 text-center">
+                          <a href="{% url 'contact_me' %}"><button type="button" class="btn btn-xl">Contact Me</button></a>
+                        </div>
+                    {% endcomment %}
                 </div>
             </div>
         </div>
