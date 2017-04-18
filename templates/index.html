@@ -220,7 +220,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted"><strong>Please hover over the envelope button to view my email address.</strong></h3>
+                    <h3 class="section-subheading text-muted"><strong>Please hover over the envelope button to view my email address or click the button to send an email.</strong></h3>
                 </div>
             </div>
             <div class="row">
@@ -265,12 +265,9 @@
                         </div>
                     </form>
                     {% endcomment %}
-
-                    {% comment %}
-                        <div class="col-md-12 text-center">
-                          <a href="{% url 'contact_me' %}"><button type="button" class="btn btn-xl">Contact Me</button></a>
-                        </div>
-                    {% endcomment %}
+                    <div class="col-md-12 text-center">
+                      <a href="{% url 'contact_me' %}"><button type="button" class="btn btn-xl">Contact Me</button></a>
+                    </div>
                 </div>
             </div>
         </div>
